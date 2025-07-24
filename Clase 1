@@ -115,3 +115,60 @@ Simplificación de un sistema para entenderlo.
 **Ejemplo**:  
 - *Determinístico*: Deformación de una viga bajo carga fija.  
 - *Estocástico*: Probabilidad de fallo en un servidor.  
+
+#### Modelos dinamicos:
+- El estado de sistema que estamos analizando cambia respecto al tiempo
+#### Modelos estaticos:
+- Representan un resultado bajo un conjunto de datos 
+### Simulacion de Modelos continuos
+- Interesa conocer el comportamiento de las variables en un lapso de tiempo continuo
+- Los valores cambian suavemente y son accesibles en cualquier momento de la simulacion
+- Ecuaciones diferenciales
+### Simulacion de Modelos discretos
+- Los cambios del sistema son facilmente identificables, y suceden en puntos especificosdel tiempo
+- Ecuaciones evaluadas en un momento determinado
+**Ejmplo**:
+- *Llenado del tanque*: A medida que el tiempo pasa el tanque se va llenando, continuas, mas relacionadas con las dinamicas, dsicretas relacionadas con las estaticas
+## Usos de la simulación
+- Entender o comprender el sistema
+- Pronosticar
+- Desarrollar herrmientas que sustituyan habilidades humanas
+- Entretenimiento
+- Entrenamiento
+- Experiencia, prueba, evaluacion de alternativas para transformar un sistema
+## ¿Por que simular?
+- Nos permite un entorno libre de riesgos
+- Ahorro de tiempo y dinero
+- Manejo de la incertidumbre
+- Visualizacion
+- Replicabilidad
+## Desventajas de la simulacion
+- No es una herramienta de optimizacion
+- Construir un buen estudio de simulacion requiere tiempo
+- Software de simulacion
+- Riesgo elevado si no se conocen las limitaciones de los modelos
+### Ejemplo
+- Modelo Black-Scholes
+   - Empiricamente invalido
+   - Aproximacion util  de la realidad
+   - Riegos inesperados
+## Etapaspara realizar una simulacion
+1. Elegir un sistema, restricciones, variables, elementos
+2. Construccion de un modelo
+3. Coleccion de datos
+4. Implementacion del modelo
+5. Validacion y analisis de sensibilidad
+6. Experimentacion
+7. Interpretacion
+**Ejemplos**:
+- Sistemas de colas
+- Manufactura
+- Geolocalizacion
+- Salud
+- Reingenieria de procesos - Digital twins
+- Inventarios
+- Proyecto de inversion
+- Difusion de tecnologias nuevas
+- Difucion de enfermedades
+- Sistemas economicos
+- Estados financieros
