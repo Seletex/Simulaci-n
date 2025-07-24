@@ -1,10 +1,117 @@
-# Nombre del profesor
-- Betancur Trujillo Daniel
-## Contenido del curso
-### Unidad 2: Continuos y discretas
-### Unidad 3: Simulacion de sistemas simples
-- Principios generales y modleacion de sistemas de sistemas simples, ejemplos de juegos de azar 
-### Unidad 4: Simulacion de sistemas con pasos de tiempo continuo
-- Principios generales de modelación de sistemas con pasos de tiempo continuo
-### Unidad 5: Simulación de sistemas con pasos de tiempo discreto
-- Principios generales y modelacion de sistemas con pasos de tiempo discreto
+# Nombre del profesor  
+**Betancur Trujillo Daniel**  
+
+---
+
+## Contenido del curso  
+
+### Unidad 2: Continuos y discretas  
+
+### Unidad 3: Simulación de sistemas simples  
+- Principios generales y modelación de sistemas simples.  
+- Ejemplos: juegos de azar.  
+
+### Unidad 4: Simulación de sistemas con pasos de tiempo continuo  
+- Principios generales de modelación de sistemas con pasos de tiempo continuo.  
+
+### Unidad 5: Simulación de sistemas con pasos de tiempo discreto  
+- Principios generales y modelación de sistemas con pasos de tiempo discreto.  
+
+---
+
+# Simulación  
+
+## ¿Qué es la simulación?  
+La simulación es un proceso mediante el cual se imita el funcionamiento de un sistema, proceso o fenómeno real a través de un modelo (físico, matemático o computacional) para estudiar su comportamiento, predecir resultados o entrenar habilidades.  
+
+### Características principales:  
+- **Modelado**: Representación simplificada de la realidad.  
+- **Propósito**: Analizar, entrenar, predecir u optimizar sin riesgos o costos elevados.  
+- **Herramientas**: Software, maquetas físicas o roles humanos (ej.: simulacros).  
+
+### Tipos de simulaciones:  
+1. **Físicas**: Prototipos (ej.: túneles de viento para aviones).  
+2. **Computacionales**: Programas (ej.: modelos climáticos, videojuegos).  
+3. **Discretas/continuas**: Según avance del tiempo (eventos vs. flujo continuo).  
+4. **Estocásticas/deterministas**: Con o sin aleatoriedad.  
+
+### Ejemplos comunes:  
+- Simuladores de vuelo.  
+- Modelos de predicción de huracanes.  
+- Cirugías virtuales.  
+
+### Ventajas:  
+✔ Reduce costos y riesgos.  
+✔ Permite explorar escenarios hipotéticos.  
+✔ Facilita entrenamiento en entornos controlados.  
+
+---
+
+## ¿Para qué sirve la simulación en ingeniería?  
+Herramienta clave para diseñar, analizar y validar sistemas complejos antes de su implementación física.  
+
+### Aplicaciones:  
+1. **Validación de diseños**:  
+   - Ejemplo: Análisis de esfuerzos en puentes (FEM).  
+2. **Optimización de procesos**:  
+   - Ejemplo: Simulación de líneas de producción (FlexSim).  
+3. **Reducción de riesgos**:  
+   - Ejemplo: Crash tests virtuales (LS-DYNA).  
+4. **Capacitación**:  
+   - Ejemplo: Simuladores de vuelo para pilotos.  
+
+### Herramientas por disciplina:  
+| **Área**               | **Software**                     |  
+|-------------------------|----------------------------------|  
+| Estructuras (FEM)       | ANSYS, SolidWorks Simulation    |  
+| Fluidos (CFD)           | OpenFOAM, COMSOL                |  
+| Electrónica             | LTspice, Proteus                |  
+
+### Caso de éxito:  
+Tesla redujo pruebas físicas en **40%** mediante simulaciones de baterías.  
+
+---
+
+## La clave: Dos enfoques críticos  
+1. **"Lo que debería pasar y no pasó"**:  
+   - Identificar discrepancias entre modelos y realidad.  
+   - Herramientas: Validación, análisis de sensibilidad.  
+
+2. **"Ver el panorama general"**:  
+   - Optimizar recursos (ej.: redistribución de salas en hospitales).  
+
+---
+
+## Ejemplo práctico  
+**Problema**: Aumentar rendimiento en un centro de distribución de galletas.  
+**Soluciones simuladas**:  
+- Añadir más elevadores.  
+- Implementar nuevos sistemas de manipulación.  
+- Aumentar bahías de carga.  
+**Beneficio**: Predecir impactos antes de invertir.  
+
+---
+
+## Conceptos clave  
+
+### Sistema  
+Conjunto de componentes que interactúan para lograr un objetivo común (*Dyner, 2008*).  
+
+#### Tipos:  
+- **Simples**: Pocas partes y relaciones (ej.: circuito eléctrico).  
+- **Complejos**: Partes interconectadas con propiedades emergentes (ej.: tráfico urbano con IoT).  
+
+### Modelo  
+Simplificación de un sistema para entenderlo.  
+- **Ejemplos**: Ecuaciones, mapas mentales, lenguaje.  
+
+### Clasificación de modelos  
+| **Tipo**           | **Determinísticos**             | **Estocásticos**               |  
+|---------------------|---------------------------------|--------------------------------|  
+| **Aleatoriedad**    | No                              | Sí (probabilidades)            |  
+| **Resultados**      | Reproducibles                  | Variables                      |  
+| **Uso típico**      | Sistemas físicos ideales        | Sistemas con incertidumbre     |  
+
+**Ejemplo**:  
+- *Determinístico*: Deformación de una viga bajo carga fija.  
+- *Estocástico*: Probabilidad de fallo en un servidor.  
