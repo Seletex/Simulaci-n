@@ -1,0 +1,31 @@
+## Componentes de un Sistema
+### Componente:
+Delimitan ek sistema. Incluyen los procesos, subprocesos y subsistemas
+### Entidad: 
+Objeto que son de interes en el sistema
+### Atributo:
+Propiedad de la entidad
+### Actividades: 
+Accion que ocurre en un periodo de tiempo especifico
+### Estado: 
+Coleccion de variables que describen el sistema en un momento dado
+### Eventos 
+Cambia el estado del sistema. Inmediato
+### Varibles
+Lo puedo controlar, y lo quiero conocer
+#### Exogenas:
+Variable que yo no controlo, algo que entra, son predeterminadas
+#### Endogenas
+dependientes y generadas por la interaccion por la interaccion entre variables exogenas, endogenas y de estado
+#### Estado
+Describen el estado del sistema en el tiempo
+### Parametros o variables exogenas
+Peuden ser varibles exogenas, y en este caso deben estar estimadaspara la operacion de un modelo especifico, 
+las varialbes se puede controlar y los parametros, no
+No controlo los parametros pero los puedo llegar a conocer o estimar
+### Relaciones funcionales
+Relacionan 
+## 🧩 Entidades de un Sistema de Colas
+
+| **SISTEMA**| **ENTIDAD**| **Atributo**|
+|-------------|----------------|---------------------------------------------|
